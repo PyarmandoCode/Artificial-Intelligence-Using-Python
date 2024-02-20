@@ -1,9 +1,8 @@
-
+mi_diccionario ={}
+mi_diccionario = dict()
 
 mi_diccionario = {
-    "nombre":"Juan",
-    "edad":30,
-    "ciudad":"california"
+    "nombre":"Juan","edad":30,"ciudad":"california"
 }
 
 #mi_diccionario.clear()
@@ -18,5 +17,5 @@ mi_diccionario = {
 
 print(mi_diccionario.keys())
 print(mi_diccionario.values())
-# for k ,v in mi_diccionario.items():
-#     print(f'La Clave {k} y su valor {v}')
+for k ,v in mi_diccionario.items():
+    print(f'La Clave {k} y su valor {v}')
