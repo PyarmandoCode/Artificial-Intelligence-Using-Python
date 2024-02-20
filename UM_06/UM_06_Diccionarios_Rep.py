@@ -47,7 +47,7 @@ valor=mi_diccionario.get('altura','no existe el valor')
 
 
 """
-Diccionarios Anidados lo agregas un lista
+Diccionarios Anidados lo agregas A una lista
 """
 usuarios = [
     {'nombre':'Juan','edad':25,'ciudad':'california'},
