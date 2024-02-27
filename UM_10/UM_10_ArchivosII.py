@@ -3,6 +3,11 @@ Crear un Archivo en Formato CSV , con datos provenientes de una lista
 sumar los datos numericos y colocarlo en la ultima fila del CSV
 """
 import csv
+import gc
+
+#Recollecion de Basura
+gc.collect()
+
 #Definir el nombre del archivo
 nombre_archivo='datos.csv'
 #Crear datos de ejemplo
