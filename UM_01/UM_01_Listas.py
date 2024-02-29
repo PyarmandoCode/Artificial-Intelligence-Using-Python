@@ -1,4 +1,7 @@
 precios=[1200,1900,1700,1900,"Juan",True,[1200,90]]
+precios[0] = 1900
+
+
 precios.append("Python") #Metodo Añadir elementos a la lista al final
 precios.insert(1,"Armando")#Metodo Añadir elementos en la posicion indicada
 precios.pop(1)#Metodo eliminar elementos de la lista por su posicion
